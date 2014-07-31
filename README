@@ -1,0 +1,14 @@
+Note:
+The following dependencies have to be installed for the code to work
+i)   ACH IPC
+ii)  HUBO-ACH 
+iii) PyDynamixel library
+
+In order to run the code
+
+The hubo-ach daemon must be run in a separate terminal using the following command 
+'hubo-ach virtual' or 'hubo-ach sim openhubo physics drc'
+
+The 'code2dyn.py' should be run in a separate terminal.
+
+Finally 'walk.py' should be run in a third terminal window.
